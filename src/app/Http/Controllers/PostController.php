@@ -142,6 +142,8 @@ class PostController extends Controller
     {
       $item = Post::find($id);
 
+      $auth = Auth::id();
+
       if(empty($item)){
         return view('post.novalue', compact('id'));
       }else{
@@ -149,7 +151,7 @@ class PostController extends Controller
 
         $postlikes = $item->post_likes()->where('user_id', Auth::id())->first();
 
-        return view('post.show', compact('item', 'id', 'postlikes'));
+        return view('post.show', compact('item', 'auth', 'id', 'postlikes'));
       }
     }
 

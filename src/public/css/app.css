@@ -1,0 +1,100 @@
+body{
+  background-color: #eee;
+}
+
+/* body_background-color */
+.main-color{
+  background-color: #ddd;
+}
+
+.font-weight{
+  font-weight: bold;
+}
+
+/* Category Var */
+.horizontal-list{
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  margin: 0;
+  padding: 0;
+}
+
+.item{
+  /* 横スクロール用 */
+  display: inline-block;
+
+  /* 見た目調整 */
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 12px 9px 12px;
+}
+
+/* topページ 本文省略 */
+.box{
+  overflow: hidden;
+  width: 100%;
+}
+
+.box p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* textarea-p */
+.textarea-p{
+  white-space: pre-wrap;
+}
+
+/* user.blade.php */
+.custom-card{
+  margin: 10px;
+}
+
+/* top article */
+.custom-main-var{
+  position: relative;
+  padding: 5px;
+  height: 48px;
+}
+
+.box-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  font-size: 13pt;
+}
+
+.custom-nav-var{
+  margin: 10px;
+}
+
+.custom-sub-nav{
+  background-color: #aaa;
+  color: #fff;
+  margin: 5px;
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.custom-card {
+  margin-bottom: 20px;
+}
+
+/* article.blade.php */
+.form-text{
+  height: 300px;
+}
+
+/* footer */
+.footer-color{
+  padding: 50px;
+}
+
+.footer-text{
+  color: white;
+}
