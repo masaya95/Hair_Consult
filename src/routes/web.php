@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PostController@index');
 
+// 9/27_コメントアウト
 // Auth::routes();
 
 Route::group(['middleware' => 'auth'], function(){
