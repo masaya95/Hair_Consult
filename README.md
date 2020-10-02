@@ -13,24 +13,32 @@
 ## 開発環境
 ### インフラ
 ・Xserver
+
 ・AWS（VPC/EC2/S3/Route56) ※環境構築中
 
 ### バックエンド
 [言語]
+
 ・php(7.2)
 
 [フレームワーク]
+
 ・Laravel(7.2)
 
 ### フロントエンド
 [言語]
+
 ・HTML
+
 ・CSS
+
 ・Javascript
 
 [フレームワーク]
+
 ・JQuery
 
 [ライブラリ]
+
 ・Boot strap
 
