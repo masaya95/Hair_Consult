@@ -17,7 +17,7 @@
 ・Xserver
 http://masayaonami.xsrv.jp/
 
-・AWS（VPC/EC2/S3/RDS(MySQL)/Route56) ※環境構築中
+・AWS（VPC/EC2/S3/RDS(MySQL)/Route53) ※環境構築中
 
 ### バックエンド
 [言語]
