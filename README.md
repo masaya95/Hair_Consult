@@ -12,6 +12,8 @@
 
 ## 開発環境
 ### インフラ
+・Docker（ローカル開発環境）
+
 ・Xserver
 http://masayaonami.xsrv.jp/
 
