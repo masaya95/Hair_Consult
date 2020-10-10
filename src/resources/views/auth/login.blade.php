@@ -51,31 +51,31 @@
                             </div>
                         </div>
 
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                        <div class="form-group row mb-2">
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary mx-auto d-block">
                                     {{ __('ログイン') }}
                                 </button>
 
-                                @if (Route::has('password.request'))
+                                <!-- @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('パスワードをお忘れですか?') }}
                                     </a>
-                                @endif
+                                @endif -->
                             </div>
                         </div>
                     </form>
 
                     <!-- 簡単ログイン -->
-                    <form method="POST" action="{{ route('login') }}">>
+                    <form method="POST" action="{{ route('login') }}">
                       @csrf
                         <input id="email" type="hidden" class="form-control @error('email') is-invalid @enderror" name="email" value="masaya.onami@gmail.com" required autocomplete="email" autofocus>
 
                         <input id="password" type="hidden" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" value="masaya0122">
 
                       <div class="form-group row mb-0">
-                        <div class="col-md-8 offset-md-4">
-                          <button type="submit" class="btn btn-primary">
+                        <div class="col">
+                          <button type="submit" class="btn btn-primary mx-auto d-block">
                               {{ __('簡単ログイン') }}
                           </button>
                         </div>

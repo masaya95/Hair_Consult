@@ -108,7 +108,7 @@
             @endforeach
             {{ $other_comments->links() }}
           @else
-            <div>投稿記事がありません</div>
+            <div>コメントした記事がありません</div>
           @endif
         </div>
 

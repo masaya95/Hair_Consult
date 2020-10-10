@@ -108,7 +108,7 @@
             @endforeach
             {{ $other_post_likes->links() }}
           @else
-            <div>投稿記事がありません</div>
+            <div>いいねした記事がありません</div>
           @endif
         </div>
 
