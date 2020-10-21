@@ -14,10 +14,15 @@
 ### インフラ
 ・Docker（ローカル開発環境）
 
-・Xserver
-http://masayaonami.xsrv.jp/
+【２パターンでデプロイをしました。】
 
-・AWS（VPC/EC2/S3/RDS(MySQL)/Route53) ※環境構築中
+・AWS（VPC/EC2/S3/RDS(MySQL)/Route53)
+
+http://hair-consult.com/
+
+・Xserver
+
+https://masayaonami.xsrv.jp/
 
 ### バックエンド
 [言語]
