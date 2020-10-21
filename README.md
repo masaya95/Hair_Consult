@@ -16,10 +16,12 @@
 
 【２パターンでデプロイをしました。】
 ・AWS（VPC/EC2/S3/RDS(MySQL)/Route53)
+
 http://hair-consult.com/
 
 ・Xserver
-http://masayaonami.xsrv.jp/
+
+https://masayaonami.xsrv.jp/
 
 ### バックエンド
 [言語]
