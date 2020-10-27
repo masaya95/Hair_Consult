@@ -13,38 +13,6 @@ return [
     |
     */
 
-    // 'custom' => [
-    //   'name' => [
-    //     'required' => 'ニックネームを入力してください',
-    //     'max:255' => '登録できるのは225文字以内のニックネームです',
-    //   ],
-    //   'gender' => [
-    //     'required' => '性別を選択してください',
-    //   ],
-    //   'age' => [
-    //     'required' => '年齢を入力してください',
-    //     'integer' => '数字を入力してください',
-    //     'min:1' => '最低1才を以上を入力してください',
-    //   ],
-    //   'select_rank' => [
-    //     'required' => '選択してください',
-    //   ],
-    //   'salon_url' => [
-    //     'url' => '正しくURLを入力してください',
-    //   ],
-    //   'email' => [
-    //     'required' => 'メールアドレスを入力してください',
-    //     'email' => '正しくメールアドレスを入力してください',
-    //     'max:255' => '登録できるのは255文字以内のメールアドレスです',
-    //     'unique:users' => '登録済みのメールアドレスです',
-    //   ],
-    //   'password' => [
-    //     'required' => 'パスワードを入力してください',
-    //     'min:8' => '8文字以上のパスワードを入力してください',
-    //     'confirmed' => '上記と同じパスワードを入力してください',
-    //   ],
-    // ],
-
     'accepted' => 'The :attribute must be accepted.',
     'active_url' => 'The :attribute is not a valid URL.',
     'after' => 'The :attribute must be a date after :date.',
@@ -187,6 +155,7 @@ return [
           'required' => 'メールアドレスを入力してください',
           'email' => '正しくメールアドレスを入力してください',
           'max:255' => '登録できるのは255文字以内のメールアドレスです',
+          'unique' => '登録済みのメールアドレスです',
           'unique:users' => '登録済みのメールアドレスです',
         ],
         'password' => [
