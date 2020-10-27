@@ -63,11 +63,6 @@
               <div class="text-right mt-1">
                 <button class="btn btn-light btn-sm">いいね済✌️({{ $comment->comment_likes->count() }})</button>
                 <div class="text-muted">投稿時間：{{ $comment->created_at }}</div>
-
-                @if ($auth === $comment->user_id)
-                  <p>できてる</p>
-                @endif
-
               </div>
             </div>
           @else
@@ -86,10 +81,6 @@
                   <button class="btn btn-info btn-sm" type="submit">いいね✌️({{ $comment->comment_likes->count() }})</button>
                 </form>
                 <div class="text-light text-muted">投稿時間：{{ $comment->created_at }}</div>
-
-                @if ($auth === $comment->user_id)
-                  <p>できてる</p>
-                @endif
               </div>
             </div>
           @endif
