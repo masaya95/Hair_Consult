@@ -58,8 +58,12 @@
 
           @if ($comment->comment_likes()->where('user_id', Auth::id())->count() > 0)
             <div class="border-top border-black mt-5">
-              <div class="mt-2"><a href="/other/{{ $comment->user_id }}">{{ '@' . $comment->user->name }}</a></div>
-              <div class="mt-1 textarea-p"><p>{{ $comment->body }}</p></div>
+              <div class="mt-2">
+                <a href="/other/{{ $comment->user_id }}">{{ '@' . $comment->user->name }}</a>
+              </div>
+              <div class="mt-1">
+                <p class="textarea-p">{{ $comment->body }}</p>
+              </div>
               <div class="text-right mt-1">
                 <button class="btn btn-light btn-sm">いいね済✌️({{ $comment->comment_likes->count() }})</button>
                 <div class="text-muted">投稿時間：{{ $comment->created_at }}</div>
